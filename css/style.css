@@ -98,7 +98,7 @@ img{
     color: white;
 }
 
-/* NAVBAR */
+/* ================ NAVBAR ================= */
 
 nav{
     background: transparent;
@@ -133,4 +133,26 @@ nav button{
 
 .nav_menu a:hover{
     color: var(--color-bg2);
+}
+
+/* ================ HEADER =============== */
+
+header{
+    position: relative;
+    top: 5rem;
+    overflow: hidden;
+    height: 70vh;
+    margin-bottom: 5 rem;
+}
+
+.header_container{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    gap: 5rem;
+    height: 100%;
+}
+
+.header_left p{
+    margin: 1rem 0 2.4rem;
 }
