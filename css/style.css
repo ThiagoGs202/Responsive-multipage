@@ -235,3 +235,42 @@ header{
 .category p{
     font-size: 0.85rem;
 }
+
+/* ============= POPULAR COURSES ============= */
+
+.courses{
+    margin-top: 10rem;
+}
+
+.courses_container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 2rem;
+    transition: var(--transition);
+}
+
+.course{
+    background: var(--color-bg1);
+    text-align: center;
+    border: 1px solid transparent;
+}
+
+.course:hover{
+    background: transparent;
+    border-color: var(--color-primary);
+}
+
+.course_info{
+    padding: 2rem;
+}
+
+.course_info p{
+    margin: 1.2rem 0 2rem;
+    font-size: 0.9rem;
+}
+
+/* ============ FAQS ============= */
+
+.faqs{
+    background: var(--color-bg1);
+}
