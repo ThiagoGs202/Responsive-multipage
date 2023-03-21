@@ -85,8 +85,9 @@ img {
   display: inline-block;
   background: white;
   color: black;
-  padding: 1 rem 2 rem;
+  padding: 1rem 2.5rem;
   border: 1px solid transparent;
+  border-radius: 1.5rem;
   font-weight: 500;
   transition: var(--transition);
 }
@@ -182,10 +183,6 @@ header {
 .categories_container {
   display: grid;
   grid-template-columns: 40% 60%;
-}
-
-.categories_left {
-  margin-left: 4rem;
 }
 
 .categories_left p {
